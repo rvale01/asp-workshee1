@@ -8,13 +8,14 @@ class my_string {
         char* str_; // it is a pointer of type char (task 1)
         int* counter_; // it is a pointer of type int used for reference counting (task 2)
     public:
+        // empty constructor, str_ is initialised to null, the counter is initialised to 1
         my_string(){
             str_ = NULL;
             counter_ = new int;
             *counter_ = 1;
         };
         
-        // constructor which has as parameter a string
+        // constructor which has as parameter a pointer to a string
         my_string(const char* str){
             int l = strlen(str) + 1; //getting the total length of the string + 1 (because of the null pointer)
             str_ = new char[l]; //creating a new string based on the lenght we just calculated
