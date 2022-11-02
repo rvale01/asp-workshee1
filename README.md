@@ -53,3 +53,20 @@ Then the curly brackets are opened, the c_value is copied to t. 'auto' is used s
 Then the second character of the data of c_value is printed, and then again the data and the counter of both c_value and t are printed.
 
 The brackets are then closed. The second char of the data of c_value is printed and then again its counter and data are printed. The counter is again 1 and the data of c_value has the second character changed.
+
+<h4>Running the code</h4>
+To test the code of the task1 folder, you can run these two commands in the terminal:
+<code>
+clang++ -std=c++17 -o task1 filetest_string.cpp
+./task1
+</code>
+
+Here is the result of running them.
+![Alt text](/screenshots/task1 "Task 1")
+
+To test the code of the task4 folder, you can run these two commands in the terminal:
+<code>
+clang++ -std=c++17 -o refCount data.cpp
+./refCount
+</code>
+![Alt text](/screenshots/task4 "Task 4")
