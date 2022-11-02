@@ -62,11 +62,11 @@ clang++ -std=c++17 -o task1 filetest_string.cpp
 </code>
 
 Here is the result of running them.
-![Alt text](https://gitlab.uwe.ac.uk/v2-ronchi/asp-worksheet1/-/blob/main/screenshots/task1.png "Task 1")
+![Alt text](https://gitlab.uwe.ac.uk/v2-ronchi/asp-worksheet1/-/raw/main/screenshots/task1.png "Task 1")
 
 To test the code of the task4 folder, you can run these two commands in the terminal:
 <code>
 clang++ -std=c++17 -o refCount data.cpp
 ./refCount
 </code>
-![Alt text](https://gitlab.uwe.ac.uk/v2-ronchi/asp-worksheet1/-/blob/main/screenshots/task4.png "Task 4")
+![Alt text](https://gitlab.uwe.ac.uk/v2-ronchi/asp-worksheet1/-/raw/main/screenshots/task4.png "Task 4")
