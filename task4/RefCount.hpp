@@ -35,7 +35,7 @@ class RefCount {
 
         // the print function, which prints just the counter
         void print(){
-            std::cout << *counter_ << std::endl;
+            std::cout << *counter_ << '\n' << std::endl;
         };
 
         // destructor, if the counter is 0, it will delete data_ and free memory

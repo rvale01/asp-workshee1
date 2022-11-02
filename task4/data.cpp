@@ -41,7 +41,7 @@ int main() {
     c_value.get_data() -> setChar(1,'E');
 
     // here the counter is again 1
-    // getting the data from c_value and calling the print function (this will print the value of the string_value object)
+    // getting the data of c_value and calling the print function (this will print the value of the string_value object)
     c_value.get_data()->print(); // printing the counter of the c_value object
     c_value.print();
 };
