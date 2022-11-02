@@ -47,7 +47,7 @@ Then both the data and the counter are printed.
 c_value.get_data()->print();
 c_value.print(); // printing the counter of the c_value object
 </code>
-</br>
+<br/>
 Then the curly brackets are opened, the c_value is copied to t. 'auto' is used so the type is set up automatically. Then the data and the counter of both c_value and t are printed (here you can notice how the counter has increased from 1 to 2).
 
 Then the second character of the data of c_value is printed, and then again the data and the counter of both c_value and t are printed.
